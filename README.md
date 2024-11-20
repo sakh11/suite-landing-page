@@ -1,2 +1,2 @@
-# suite-landing-page
- Suite landing page - A Frontendmentor Challenge
+# Suite Landing Page
+### A Frontendmentor [Challenge](https://www.frontendmentor.io/challenges/suite-landing-page-tj_eaU-Ra)
