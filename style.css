@@ -1,0 +1,182 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* /Imports */
+
+
+/* Root styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+/* /Root styles */
+
+
+/* Main styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20vw;
+    /* padding: 0 18vw; */
+}
+/* /Main styles */
+
+
+/* Navigation Bar Styles */
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar #nav-bar-logo {
+    height: 1.5rem;
+}
+/* /Navigation Bar Styles */
+
+
+/* General Section styles */
+.section {
+    width: 100%;
+    padding: 2.5rem 2rem;
+}
+/* /General Section styles */
+
+/* Hero section */
+#section-hero {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(1rem, 1fr)); /* Use minmax to control column size */
+    position: relative;
+}
+
+#hero-image {
+    width: 20rem;
+    grid-column: 4 / 6;
+    grid-row: 1;
+    z-index: 0;
+    /* align-self: flex-end; */
+    /* justify-self: end; */
+}
+
+#hero-description-vector-curve {
+    padding-left: 18rem;
+}
+
+.container-hero-description {
+    padding: 2rem 0;   
+}
+
+.hero-description-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / 7;
+    grid-row: 1;
+    z-index: 1;
+}
+
+.container-hero-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* padding-left: 2rem; */
+}
+
+#hero-description-title {
+    font-weight: 400;
+    font-size: 4.25rem;
+    margin-top: 1rem;
+}
+
+.numbers {
+    font-size: 48px;
+}
+
+.numbers-paragraph {
+    padding: 2rem;
+    width: 100%;
+}
+
+
+.section-testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-image-container, .testimonial-description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* .testimonial-image-container {
+    
+}
+
+.testimonial-description-container {
+    
+} */
+
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+
+/* /Hero section */
+
+/* Styles for the two main sections of the landing page. */
+/* .section-hero, .section-testimonial {
+    height: 30rem;
+} */
+/* /Styles for the two main sections of the landing page. */
+
+
+/* Footer section */
+.section-footer {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* /Footer section */
+
+/* Button styles */
+  .buttons {
+    background-color: white;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    color: inherit;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    width: 13rem;
+    padding: 1.2rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  /* Misc styles */
+  .margin-top {
+    margin-top: 3rem;
+  }
+
+  p {
+    line-height: 1.8rem;
+    text-align: start;
+  }
