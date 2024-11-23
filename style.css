@@ -15,6 +15,7 @@ body, html {
     font-weight: 400;
     font-size: 1.1rem;
     font-style: normal;
+    letter-spacing: 2px;
 }
 /* /Root styles */
 
@@ -112,28 +113,50 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    background: linear-gradient(to top, #3498db 90%, transparent 90%);
+    border-radius: 1rem;
 }
 
 .testimonial-image-container, .testimonial-description-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 50%;
 }
 
-/* .testimonial-image-container {
-    
+.testimonial-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
 }
 
 .testimonial-description-container {
-    
-} */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;   
+}
+
+.testimonial-title {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
 
 
 .font-weight-700 {
     font-weight: 700;
 }
+
+.testimonial-paragraph, .testimonial-signature {
+    margin-top: 2rem;
+}
+
+/* .testimonial-paragraph {
+
+} */
+
+/* .testimonial-signature {
+    
+} */
 
 
 /* /Hero section */
