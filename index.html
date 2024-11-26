@@ -19,56 +19,51 @@
 
             <nav class="section nav-bar">
                 <img 
-                    id="nav-bar-logo"
+                    class="company-logo"
                     src="./assets/logo.svg" 
                     alt="Business logo."
                 >
-                <button class="buttons buttons-light">Request Beta Access</button>
+                <button class="buttons button-light">Request Beta Access</button>
             </nav>
             
             <section class="section" id="section-hero">
-                <img id="hero-image"
-                    src="./assets/image-hero-portrait.png" 
-                    alt="Imagine containing the top half of a smartphone encapsulated inside a rectangle with different colors ranging from yellow, to red, to purple blending together."
-                >
 
-                <div class="hero-description-wrapper">
-                    <container class="container-hero-description">
-                        <img
-                        id="hero-description-vector-curve"
-                        src="./assets/pattern-curved-line-1.svg"
-                        alt="Vector image of a curved line."
-                        >
-                        <h1 id="hero-description-title">A <span class="font-weight-700">super solution</span><br> for your <span class="font-weight-700">business</span>.</h1>
-                        <p id="hero-description-paragraph" class="margin-top">Our marketing and sales automations <br> help you scale your outreach to get <br> more leads  for your company.</p>
-                        <button class="buttons buttons-dark margin-top">Request Beta Access</button>
-                    </container>
-                    
-                    <container class="container-hero-numbers">
-                        <p class="numbers-paragraph">
-                            <span class="numbers font-weight-700">2K+</span>
-                            <br>
-                            Companies
-                        </p>
-                        <p class="numbers-paragraph">
-                            <span class="numbers font-weight-700">8</span>
-                            <br>
-                            Languages
-                        </p>
-                        <p class="numbers-paragraph">
-                            <span class="numbers font-weight-700">1.2M</span>
-                            <br>
-                            Leads
-                        </p>
-                    </container>
+                <div class="container-hero-description">
+                    <img
+                    id="hero-description-vector-curve"
+                    src="./assets/pattern-curved-line-1.svg"
+                    alt="Vector image of a curved line."
+                    >
+                    <h1 id="hero-description-title">A <span class="font-weight-700">super solution</span><br> for your <span class="font-weight-700">business</span>.</h1>
+                    <p id="hero-description-paragraph" class="margin-top">Our marketing and sales automations <br> help you scale your outreach to get <br> more leads  for your company.</p>
+                    <button class="buttons button-dark margin-top">Request Beta Access</button>
+                </div>
+
+                <img id="hero-image"
+                src="./assets/image-hero-portrait.png" 
+                alt="Imagine containing the top half of a smartphone encapsulated inside a rectangle with different colors ranging from yellow, to red, to purple blending together."
+                >
+                <div class="container-hero-numbers">
+                    <p class="numbers-paragraph toUpperCase">
+                        <span class="numbers font-weight-700">2K+</span>
+                        <br>
+                        Companies
+                    </p>
+                    <p class="numbers-paragraph toUpperCase">
+                        <span class="numbers font-weight-700">8</span>
+                        <br>
+                        Languages
+                    </p>
+                    <p class="numbers-paragraph toUpperCase">
+                        <span class="numbers font-weight-700">1.2M</span>
+                        <br>
+                        Leads
+                    </p>
                 </div>
 
             </section>
 
             <section class="section section-testimonial">
-                <div class="testimonial-background-container">
-                    <div class=""></div>
-                </div>
                 <div class="testimonial-content-wrapper">
                     <div class="testimonial-image-container">
                         <img 
@@ -85,12 +80,14 @@
                     <div class="testimonial-quotation-icon">
                         <img src="./assets/pattern-curved-line-2.svg" alt="An image of a curved line to connect the testimonial image to the testimonial paragraph as a quote." class="testimonial-quotation-icon-image">
                     </div>
+                </div>
+                <div class="testimonial-background-container">
                     <div class="testimonial-description-container">
                         <h2 class="testimonial-title">It just <span class="font-weight-700">works.</h2>
-                        <p class="testimonial-paragraph">I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker.</p>
+                        <p class="testimonial-paragraph light-grey-text-color">"I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate tools to do the same job. This thing is a miracle worker."</p>
                         <div class="testimonial-signature">
-                            <p class="font-weight-700">Jeremy Robinson</p>
-                            <p>CMO, Fylo</p>
+                            <p class="font-weight-700 testimonial-name-letterspacing toUpperCase">Jeremy Robinson</p>
+                            <p class="light-grey-text-color toUpperCase">CMO, Fylo</p>
                         </div>
                     </div>
                 </div>
@@ -98,11 +95,13 @@
 
             <footer class="section section-footer">
                 <img 
+                    class="company-logo" 
+                    id="footer-logo"
                     src="./assets/logo.svg" 
                     alt="Business logo."
                 >
-                <p>Copyright - Suite</p>
-                <container class="social-media-container">
+                <p id="copyright-text">Copyright - Suite</p>
+                <div class="social-media-container">
                     <a 
                         href="https://facebook.com" 
                         class="social-media-icon" 
@@ -117,7 +116,7 @@
                         class="social-media-icon" 
                         id="twitter">
                             <img 
-                                src="./assets/icon-twitter.svg" 
+                                src="./assets/icon-twitter.svg"
                                 alt="Icon for the social media site X, formerly known as Twitter."
                             >
                     </a>
@@ -130,17 +129,10 @@
                                 alt="Icon for the social media site Instagram."
                             >
                     </a>
-                </container>
+                </div>
             </footer>
 
         </main>
 
     </body>
 </html>
-
-
-ul>li*3>a*3^^ul>li*3>a*3
-
-where I left off:
-
-Figuring out how to color parts of a container, reduce the colors that span with the padding.
