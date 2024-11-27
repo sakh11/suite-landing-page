@@ -130,6 +130,7 @@ main {
 .numbers-paragraph {
   padding: 4rem;
 }
+/* /Hero section */
 
 /* Testimonial section */
 .section-testimonial {
@@ -308,11 +309,10 @@ p {
 .toUpperCase {
     text-transform: uppercase;
 }
-
 /* /Unique Style Classes */
 
 
-
+/* Necessary CSS adjustments for smaller screen resolutions */
 @media only screen and (max-width: 1160px) {
     main {
         width: 100%;
@@ -482,4 +482,6 @@ p {
         width: 12rem;
         padding: 0 0 0 2rem;
     }
+
+  /* /Necessary adjustments for smaller screens */
 }
